@@ -52,12 +52,31 @@ This repository presents insights and analysis based on sales performance data o
 
 ## 📎 Files & Visuals Included
 
-- Revenue per product category by time of day  
-- Total revenue per product category  
-- Top 10 selling items by day  
-- Revenue by store location  
+
+- Coffeshop.csv
+- Kwa Khoza Coffee Shop pdf  
+- Kwa Khoza Coffee Shop presantation 
+- README.md
+- Recommandation1.pdf
+- Recommandation2.pdf
+- Revenue In Increase.pdf
+- Top10 Selling Product details.pdf
+- Top10 Selling Product datails in Percentage.pdf
+- Top10 Revenue per Product Category in percenatage.pdf
+- Top10 Revenue per Product category in rands.pdf
+- Total Product Revenue by Store locastion. 
+  
 
 ---
+## Tools and Technology
+
+- SQL
+- Snowflake
+- Canva
+- MS excel
+- Miro
+- githup
+  
 
 ## 📂 Project Purpose
 

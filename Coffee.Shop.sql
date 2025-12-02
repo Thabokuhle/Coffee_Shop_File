@@ -1,26 +1,26 @@
 SELECT *
-FROM COFFEESHOP.SALES.CASESTUDY;
+FROM KHOZA.COFFEE.SHOP;
 ---------------------------------------------
 --CHECKING NUMBER OF COFFEE STORE_LOCATION
 SELECT DISTINCT(STORE_LOCATION)
-FROM COFFEESHOP.SALES.CASESTUDY;
+FROM khoza.coffee.shop;
 ---------------------------------------------
 --CHECKING PRODUCT CATEGORY
 SELECT DISTINCT(PRODUCT_CATEGORY)
-FROM COFFEESHOP.SALES.CASESTUDY;
+FROM khoza.coffee.shop;
 --------------------------------------------
 --CHECKING NUMBER OF PRODUCT TYPE
 SELECT DISTINCT(PRODUCT_TYPE)
-FROM COFFEESHOP.SALES.CASESTUDY;
+FROM khoza.coffee.shop;
 --------------------------------------------
 --DATE AND TIME FUNCTIONS-------------------
 --Checking when was the last transaction date---
 SELECT MAX(transaction_date) AS Last_transaction_date
-FROM coffeeshop.sales.casestudy;
+FROM khoza.coffee.shop;
 --------------------------------------------
 SELECT transaction_date, 
 DAYNAME (transaction_date) AS day_name
-FROM coffeeshop.sales.casestudy;
+FROM khoza.coffee.shop;
 --------------------------------------------
 SELECT transaction_date,
 DAYNAME (transaction_date) AS day_name,
@@ -46,5 +46,5 @@ COUNT (DISTINCT transaction_id) AS number_of_sales,
 -- Revenue
 SUM (transaction_qty*unit_price) AS revenue
 
-FROM coffeeshop.sales.casestudy
+FROM khoza.coffee.shop
 GROUP BY ALL;
